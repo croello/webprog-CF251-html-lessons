@@ -1,3 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Sans", sans-serif;
+  font-size: 17px;
+  background-color: rgb(243, 242, 242);
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: rgb(5, 5, 5);
+  margin: 0 0 10px 0;
+}
+
+p {
+  color: rgb(3, 3, 3);
+  margin: 0;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.NameInfo, .Information {
+  background-color: white;
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.AboutMe {
+  width: 100%;
+  max-width: 800px;
+  padding: 25px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  border-radius: 8px;
+}
+
+.box1, .box2, .box3, .box4, .box5 {
+  width: 100%;
+  max-width: 500px;
+  padding: 15px;
+  background-color: rgb(245, 244, 244);
+  text-align: center;
+  border-radius: 6px;
+}
+
+.box1 h2, .box2 h2, .box3 h2, .box4 h2, .box5 h2 {
+  font-size: 20px;
+  margin: 0 0 8px 0;
+}
+
+.gallery-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+  padding: 20px;
+  width: 100%;
+  max-width: 800px;
+  border-radius: 8px;
+}
+
+.gallery-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
 
 * {
   box-sizing: border-box;
